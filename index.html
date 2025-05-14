@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>LA MEJOR PÁGINA DE RESEÑAS DE TECNOLOGIA</h1>
+        <h1>RESEÑAS RESETECH</h1>
     </header>
 
     <main>
@@ -24,6 +24,13 @@
 
         <h2>MEJORES LANZAMIENTOS</h2>
         <p>A continuación mostraremos los mejores lanzamientos de dispositivos móviles de este 2025.</p>
+        <nav>
+            <ul>
+                <li><a href="#moviles">Móviles</a></li>
+                <li><a href="#procesadores">Procesadores</a></li>
+                 <li><a href="#Noticias">Noticias</a></li>
+            </ul>
+        </nav>
 
         <article>
             <h4>Xiaomi 15 Ultra</h4>
@@ -395,6 +402,22 @@
           
 
         </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="/enviar" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+        
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+        
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
         
 
     </main>
