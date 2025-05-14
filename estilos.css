@@ -1,0 +1,237 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #b8860b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Contenido principal */
+main {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #264653;
+    text-transform: capitalize;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #264653;
+    color: #fff;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Responsive para móviles */
+@media (max-width: 600px) {
+    main {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    table, th, td {
+        font-size: 16px;
+    }
+}
+.contenedor-imagenes {
+    text-align: center;
+}
+
+
+.imagen-lado {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+
+.imagen-lado:hover {
+    transform: scale(1.05);
+}
+
+.imagen-vivo {
+    display: flex;             
+    justify-content: center;    
+    gap: 20px;                  
+    flex-wrap: wrap;           
+    margin: 20px 0;
+}
+
+.imagen-ultra {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagen-ultra:hover {
+    transform: scale(1.05);
+}
+
+.imagen-xperia {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.imagen-vii {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagen-vii:hover {
+    transform: scale(1.05);
+}
+
+.imagen-uno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.imagen-uno img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagen-uno img:hover {
+    transform: scale(1.05);
+}
+
+.imagen-dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.imagen-dos img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagen-dos img:hover {
+    transform: scale(1.05);
+}
+
+.imagen-tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.imagen-tres img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagen-tres img:hover {
+    transform: scale(1.05);
+}
+
+.imagen-noti3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.imagen-noti3 img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagen-noti3 img:hover {
+    transform: scale(1.05);
+}
+
+.imagen-noti2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.imagen-noti2 img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagen-noti2 img:hover {
+    transform: scale(1.05);
+}
+
+.imagen-noti1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.imagen-noti1 img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagen-noti1 img:hover {
+    transform: scale(1.05);
+}
